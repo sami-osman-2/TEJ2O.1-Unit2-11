@@ -4,10 +4,12 @@ Created by: Sami Osman
 Created on: Nov 2025
 This program generates 2 random numbers and compares them on shake.
 """
+
 from microbit import *
 import random
 
 # generate two random numbers from 0 to 99
+
 num1 = random.randint(0, 99)
 num2 = random.randint(0, 99)
 
